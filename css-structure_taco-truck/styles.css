@@ -1,0 +1,36 @@
+@import "./theme.css";
+@import "./css/card.css";
+@import "./css/header.css";
+@import "./css/main.css";
+
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--body-bg);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 20px;
+}
+
+.header__title {
+  margin: 0;
+}
+
+
