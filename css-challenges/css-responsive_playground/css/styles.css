@@ -102,9 +102,16 @@ h1 {
 
 .box--four {
   background-color: lightgray;
-
   width: 100px;
   height: 100px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .box--four {
+  background-color: darkgray;
+  width: 100px;
+  height: 100px;
+}
 }
 
 .box--five {
