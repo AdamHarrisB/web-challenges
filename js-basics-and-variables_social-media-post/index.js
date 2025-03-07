@@ -11,6 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "socialMediaPost";
+const text = "this is the sample text for my social media post";
+let likes = 3;
+const creator = "Adam";
+const isReported = "true";
+
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +24,12 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+
+console.log(title)
+console.log(text)
+console.log(likes)
+console.log(creator)
+likes = likes + 1;
+
 
 // --^-- write your code here --^--
