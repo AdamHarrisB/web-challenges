@@ -58,9 +58,14 @@ console.log(hotdogPrice)
 console.log(numberOfHotdogs*hotdogPrice)
 
 // Part 4: Daytime
+//### Part 4: Daytime
+//- use a ternary operator to define the `statement` variable as follows:
+//- if the currentHour is smaller than 17, `statement` should read "Still need to learn..."
+//- if the currentHour is greater or equal to 17 it should equal "Partytime!!!"
+
 const currentHour = 12;
 
-const statement = "";
+const statement = currentHour >= 17 ? "Partytime!!!" : "Still need to learn...";
 
 console.log(statement);
 
