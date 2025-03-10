@@ -5,10 +5,30 @@ const SUPER_SECRET_PASSWORD = "h4x0r1337";
 
 const receivedPassword = "password1234";
 
-if (SUPER_SECRET_PASSWORD = "h4x0r1337"){
+if (receivedPassword = SUPER_SECRET_PASSWORD){
     console.log("Welcome! You are logged in as Brunhilde1984.")
 } else {
     console.log("Access denied")
+}
+
+const isSunShining = true;
+
+if (isSunShining) {
+    console.log("hooray")
+} else {
+    console.log("oh no")
+}
+
+const isSunShining = true;
+
+const SUPER_SECRET_PASSWORD = "h4x0r1337";
+
+const receivedPassword = "password1234";
+
+if (receivedPassword === SUPER_SECRET_PASSWORD) {
+    console.log("Welcome! You are logged in as Brunhilde1984.")
+} else {
+    console.log("Access Denied")
 }
 
 
