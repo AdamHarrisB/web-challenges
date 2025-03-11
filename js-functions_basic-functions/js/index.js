@@ -10,6 +10,16 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const bookTitle = "the lord of the rings"
+const bookAuthor = "JRR Tolkein"
+let bookRating = 5
+let copiesSold = 10000000
+
+console.log("Title: " + bookTitle)
+console.log("Author: " + bookAuthor)
+console.log("Rating: " + bookRating)
+console.log("Sales: " + copiesSold)
+
 // --^-- write your code here --^--
 
 /*
@@ -28,6 +38,15 @@ Then:
 
 // --v-- write your code here --v--
 
+bookRating = 6
+copiesSold = 20000000
+
+console.log("Title: " + bookTitle)
+console.log("Author: " + bookAuthor)
+console.log("Rating: " + bookRating)
+console.log("Sales: " + copiesSold)
+
+
 // --^-- write your code here --^--
 
 /*
@@ -40,5 +59,14 @@ Then:
 */
 
 // --v-- write your code here --v--
+
+function logBookData(){
+  console.log("Title: " + bookTitle)
+console.log("Author: " + bookAuthor)
+console.log("Rating: " + bookRating)
+console.log("Sales: " + copiesSold)
+}
+
+logBookData()
 
 // --^-- write your code here --^--
