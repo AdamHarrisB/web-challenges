@@ -1,5 +1,15 @@
 console.clear();
 
+const inputElement = document.querySelector('[data-js="userInput"]');
+const buttonElement = document.querySelector('[data-js="button-uppercase"]');
+
+buttonElement.addEventListener("click", () => {
+  inputElement.value = inputElement.value.toUpperCase();
+});
+
+//BUT Why?! Details below:
+
+/*
 const userName = "Adam";
 const stringConcatenation = "Hello" + userName + "!";
 
@@ -16,5 +26,13 @@ console.log(greeting)
 "What happens to this STRING".toLowerCase();
 
 const nameInput = document.querySelector('[data-js="nameInput"]');
+nameInput.value = "Adam";
 
-nameInput.value; 
+
+nameInput.addEventListener("input", () => {
+    const oldValue = nameInput.value;
+    const newValue = oldValue.toUpperCase();
+    nameInput.value = newValue;
+  });
+*/
+
