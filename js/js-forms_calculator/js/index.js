@@ -25,6 +25,7 @@ form.addEventListener("submit", (event) => {
   let result;
 
   // --v-- write your code here --v--
+  // making arbitrary changes for the sake of it
 
   // --^-- write your code here --^--
 
