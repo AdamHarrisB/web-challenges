@@ -9,6 +9,19 @@ const operand2 = 4;
 
 // --v-- write your code here --v--
 
+const addButton = document.querySelector(data-js="add");
+const subtractButton = document.querySelector(data-js="subtract");
+const multiplyButton = document.querySelector(data-js="multiply");
+const divideButton = document.querySelector(data-js="divide");
+const exponentButton = document.querySelector(data-js="exponent");
+const moduloButton = document.querySelector(data-js="modulo");
+const increaseOneButton = document.querySelector(data-js="increase-by-one");
+const increaseFiveButton = document.querySelector(data-js="increase-by-five");
+const decreaseOneButton = document.querySelector(data-js="decrease-by-one");
+const decreaseFiveButton = document.querySelector(data-js="decrease-by-five");
+const multiplyTwoButton = document.querySelector(data-js="multiply-by-two");
+const divideTwoButton = document.querySelector(data-js="divide-by-two");
+
 // --^-- write your code here --^--
 
 /* 
@@ -22,6 +35,8 @@ For each operation (add, subtract, multiply, divide, exponent, and modulo):
 */
 
 // --v-- write your code here --v--
+
+addButton
 
 // --^-- write your code here --^--
 
