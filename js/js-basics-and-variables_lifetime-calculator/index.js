@@ -13,7 +13,7 @@ Calculate the following:
 
 Log each result with a clear and descriptive message. 
 Hint: You can combine text and variables using the `+` operator.
-
+node index.js 32
 💡 For simplicity, ignore leap years.
 */
 
