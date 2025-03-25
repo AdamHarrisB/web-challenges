@@ -1,7 +1,8 @@
 :root {
   --color_granite: #8336ff7b;
   --color_nemo: #ff4a11ff;
-  --color_foam: white;
+  --color_foam: #ffffff;
+  --border_radius_small: 4px;
 }
 
 *,
@@ -65,7 +66,7 @@ figure {
   margin: 0;
   padding: 10px;
   background-color: var(--color_nemo);
-  border-radius: 4px;
+  border-radius: var(--border_radius_small);
 }
 
 figcaption {
