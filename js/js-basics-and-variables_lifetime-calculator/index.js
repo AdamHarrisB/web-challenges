@@ -17,7 +17,7 @@ node index.js 32
 💡 For simplicity, ignore leap years.
 */
 
-const currentAge = Number(process.argv[2]); // This takes the `<age>` entered in the command `node index.js <age>`.
+const currentAge = 50; // This takes the `<age>` entered in the command `node index.js <age>`.
 const averageLife = (80 * 365);
 const dayAge = (currentAge * 365)
 const percentLife = (dayAge / averageLife * 100)
