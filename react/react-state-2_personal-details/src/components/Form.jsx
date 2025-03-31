@@ -1,11 +1,14 @@
 import { useState } from "react";
 
 export default function Form() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [name, setName] = useState("a");
+  const [email, setEmail] = useState("b");
+  const rootElement = document.querySelector("#root");
+  const root = createRoot(rootElement);
 
   function handleSubmit(event) {
     event.preventDefault();
+
   }
 
   return (
