@@ -23,8 +23,10 @@ printSquare(5);
 
 function printCircumference(radius) {
    let pi = 3.14
-   console.log(radius * 2 * pi)
+   console.log(radius * 2 * Math.PI)
 }
+
+Math.PI
 
 printCircumference(4);
 printCircumference(6);

@@ -61,7 +61,7 @@ console.log("Sales: " + copiesSold)
 // --v-- write your code here --v--
 
 function logBookData(){
-  console.log("Title: " + bookTitle)
+console.log("Title: " + bookTitle)
 console.log("Author: " + bookAuthor)
 console.log("Rating: " + bookRating)
 console.log("Sales: " + copiesSold)

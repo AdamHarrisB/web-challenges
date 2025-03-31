@@ -19,6 +19,7 @@ function logText() {
 //the function is not used
 
 logText()
+
 function explain1() {
   console.log("The function was not used, but now it is!")
 }
