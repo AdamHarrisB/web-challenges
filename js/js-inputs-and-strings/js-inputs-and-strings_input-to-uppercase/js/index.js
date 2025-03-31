@@ -1,12 +1,10 @@
-console.clear();
 
-const inputElement = 
-document.querySelector('[data-js="first-input"]');
 
-const buttonup = 
-document.querySelector('[data-js="button-uppercase"]');
+const firstInput = document.querySelector('[data-js = "first-input"]');
+const buttonUppercase = document.querySelector(
+  '[data-js = "button-uppercase"]'
+);
 
-buttonup.addEventListener("click", () => {
-    userInput.value.toUpperCase();
-    inputElement.value = inputElement.value.toUpperCase();
+buttonUppercase.addEventListener("click", () => {
+  firstInput.value = firstInput.value.toUpperCase();
 });
