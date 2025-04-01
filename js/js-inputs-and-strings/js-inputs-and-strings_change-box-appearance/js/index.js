@@ -7,6 +7,20 @@ buttonElement.addEventListener("click", () => {
   inputElement.value = inputElement.value.toUpperCase();
 });
 
+const box = document.querySelector('["data-js="box"]');
+const colorSlider = document.querySelector('[data-js="input-color"]');
+const borderSlider = document.querySelector('[data-js="input-radius"]');
+const rotationSlider = document.querySelector('[data-js="input-rotation"]');
+
+colorSlider.addEventListener("input", () => {
+  const color = colorSlider.value;
+  box.style.backgroundColor = `hsl(${color}, 100%, 50%)`;
+} );
+
+
+borderSlider.addEventListener()
+rotationSlider.addEventListener()
+
 //BUT Why?! Details below:
 
 /*
