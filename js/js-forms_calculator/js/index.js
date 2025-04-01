@@ -21,7 +21,10 @@ function divide(a, b) {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
+  if 
+  else if
+  else if
+  else if
   let result;
 
   // --v-- write your code here --v--

@@ -35,7 +35,8 @@ const data = Object.fromEntries(formData);
 // displays age age-badness as two strings together
 
   event.target.reset();
- // resets the form
+ // resets the form once form is submitted
 
-
+ event.target.elements.firstName.focus();
+// focuses on firstName field once form is submitted and reset
 });
